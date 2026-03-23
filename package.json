@@ -1,0 +1,15 @@
+{
+    "name": "oxlint-id-denylist-repro",
+    "private": true,
+    "description": "Minimal reproduction: oxlint id-denylist incorrectly flags global Number/String/Boolean when env browser: true is set",
+    "scripts": {
+        "oxlint": "oxlint -c .oxlintrc.json test.js",
+        "eslint": "eslint -c eslint.config.mjs test.js"
+    },
+    "devDependencies": {
+        "eslint": "^9.0.0",
+        "globals": "^16.0.0",
+        "oxlint": "^1.0.0",
+        "oxlint-plugin-eslint": "^1.56.0"
+    }
+}

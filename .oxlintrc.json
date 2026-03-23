@@ -1,0 +1,10 @@
+{
+    "jsPlugins": ["oxlint-plugin-eslint"],
+    "categories": {},
+    "rules": {
+        "eslint-js/id-denylist": ["error", "Number", "String", "Boolean"]
+    },
+    "env": {
+        "browser": true
+    }
+}
